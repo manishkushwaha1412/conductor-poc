@@ -24,8 +24,8 @@ public class AddressApplication {
 		JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
 		mailSender.setHost("smtp.gmail.com");
 		mailSender.setPort(587);
-		mailSender.setUsername("mails.manish1412@gmail.com");
-		mailSender.setPassword("99Javasree");
+		mailSender.setUsername("your email.com");
+		mailSender.setPassword("your pass");
 
 
 		Properties props = mailSender.getJavaMailProperties();
